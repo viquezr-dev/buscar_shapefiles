@@ -7,12 +7,12 @@ version=1.0
 author=Raul Viquez
 email=viquezr@gmail.com
 about=Plugin inteligente que busca archivos shapefile por nombre en una carpeta seleccionada, permite seleccionar el CRS destino y convierte automáticamente las capas si es necesario.
-tracker=https://https://github.com/viquezr-dev/buscar_shapefiles/issues
-repository=https://https://github.com/viquezr-dev/buscar_shapefiles
+tracker=https://github.com/viquezr-dev/buscar_shapefiles/issues
+repository=https://github.com/viquezr-dev/buscar_shapefiles
 icon=icon.png
 category=Vector
 tags=shapefile, buscar, conversión, CRS, UTM, WGS84, búsqueda, cargar, conversión automática
-homepage=https://https://github.com/viquezr-dev/buscar_shapefiles
+homepage=https://github.com/viquezr-dev/buscar_shapefiles
 
 [actions]
 Buscar Shapefile=BuscarShapefile
