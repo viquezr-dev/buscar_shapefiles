@@ -2,11 +2,11 @@
 name=Buscar Shapefile
 qgisMinimumVersion=3.0
 qgisMaximumVersion=3.99
-description=Busca shapefiles en carpetas y los carga con conversión automática de CRS
-version=1.0
+description=Searches for shapefiles in folders and loads them with automatic CRS conversion.
+version=1.2.0
 author=Raul Viquez
 email=viquezr@gmail.com
-about=Plugin inteligente que busca archivos shapefile por nombre en una carpeta seleccionada, permite seleccionar el CRS destino y convierte automáticamente las capas si es necesario.
+about=Intelligent plugin that searches for shapefile files by name in a selected folder, allows you to select the destination CRS, and automatically converts the layers if necessary.
 tracker=https://github.com/viquezr-dev/buscar_shapefiles/issues
 repository=https://github.com/viquezr-dev/buscar_shapefiles
 icon=icon.png
