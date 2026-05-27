@@ -2,7 +2,7 @@
 """
 buscar_shapefiles - Plugin para QGIS
 Desarrollado por Raul Viquez (viquezr@gmail.com)
-Version: 1.2.0 - Conversión CRS + Carga por lotes
+Version: 1.2.1 - Conversión CRS + Carga por lotes
 """
 
 import os
@@ -266,6 +266,9 @@ class BuscarShapefileDialog(QDialog):
                 border: 1px solid #cbd5e0;
                 border-radius: 4px;
                 height: 20px;
+                text-align: center;
+                color: #2c3e50;
+                font-weight: bold;
             }
             QProgressBar::chunk {
                 background-color: #22c55e;
@@ -287,7 +290,7 @@ class BuscarShapefileDialog(QDialog):
         )
         layout.addWidget(titulo)
 
-        subtitulo = QLabel("v1.2.0 - Conversión CRS + Carga por lotes")
+        subtitulo = QLabel("v1.2.1 - Conversión CRS + Carga por lotes")
         subtitulo.setAlignment(Qt.AlignCenter)
         subtitulo.setStyleSheet("color: #7f8c8d; font-size: 10px;")
         layout.addWidget(subtitulo)
